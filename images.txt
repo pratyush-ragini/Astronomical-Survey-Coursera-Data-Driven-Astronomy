@@ -1,0 +1,1 @@
+This folder contains the images used for pulsar detection improvement and also the generated images post stacking.
