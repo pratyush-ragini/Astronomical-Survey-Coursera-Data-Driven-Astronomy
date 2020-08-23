@@ -12,7 +12,7 @@ def mean_fits(file_list):
     return m
 
 if __name__ == '__main__':  
-  data  = mean_fits(['image0.fits', 'image1.fits', 'image2.fits', 'image3.fits'])
+  data  = mean_fits(['images/image0.fits', 'images/image1.fits', 'images/image2.fits', 'images/image3.fits'])
   print(data[100, 100])
   # Plot of the result
   import matplotlib.pyplot as plt
