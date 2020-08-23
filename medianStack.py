@@ -49,9 +49,9 @@ def median_approx_fits(file_list, N):
 # Any code inside this `if` statement will be ignored by the automarker.
 if __name__ == '__main__':
   # Run your function with examples from the question.
-  mean, std, left_bin, bins = median_bins_fits(['image0.fits', 'image1.fits', 'image2.fits'], 5)
-  median = median_approx_fits(['image0.fits', 'image1.fits', 'image2.fits'], 5) 
-  data  = median_approx_fits(['image0.fits', 'image1.fits', 'image2.fits', 'image3.fits'], 5)
+  mean, std, left_bin, bins = median_bins_fits(['images/image0.fits', 'images/image1.fits', 'images/image2.fits'], 5)
+  median = median_approx_fits(['images/image0.fits', 'images/image1.fits', 'images/image2.fits'], 5) 
+  data  = median_approx_fits(['images/image0.fits', 'images/image1.fits', 'images/image2.fits', 'images/image3.fits'], 5)
  
   # Plot of the result
   import matplotlib.pyplot as plt
